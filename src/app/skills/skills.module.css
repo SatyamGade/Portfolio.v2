@@ -1,0 +1,79 @@
+.skills{
+    padding: 1.5em 7.5em;
+}
+
+.mainHeading{
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.btns{
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1em 2em;
+}
+
+.subBtns{
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1em 2em;
+}
+
+.skill,
+.softSkill{
+    background-color: #121212;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    text-align: center;
+    border: 1px solid #404040;
+    border-radius: 16px;
+    padding: 0.5625em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+    .skills{
+        padding: 1.5em 0.5em;
+    }
+
+    .mainHeading{
+        font-size: 2rem;
+    }
+
+    .btns{
+        padding: 2em 0;
+        grid-template-columns: auto auto;
+        gap: 1em;
+    }
+
+    .subBtns{
+        padding: 2em 0;
+        grid-template-columns: auto auto;
+        gap: 1em;
+    }
+
+    .skill,
+    .softSkill{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skills{
+        padding: 1.5em 2em;
+    }
+
+    .btns{
+        padding: 2em 0;
+        grid-template-columns: auto auto auto;
+        gap: 1em;
+    }
+
+    .subBtns{
+        padding: 2em 0;
+        grid-template-columns: auto auto auto;
+        gap: 1em;
+    }
+}

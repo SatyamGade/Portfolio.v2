@@ -1,0 +1,38 @@
+.education{
+    padding: 1.5em 7.5em;
+}
+
+.mainHeading{
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.headings{
+    list-style: circle;
+    font-size: 1.75rem;
+    padding-top: 1em;
+}
+
+.bodyText{
+    padding-top: 0.5em;
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+    .education{
+        padding: 1.5em 0.5em;
+    }
+
+    .mainHeading{
+        font-size: 2rem;
+    }
+
+    .headings{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .education{
+        padding: 1.5em 2em;
+    }
+}

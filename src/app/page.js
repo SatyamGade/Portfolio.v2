@@ -8,18 +8,17 @@ import Contact from './contact/page';
 import Education from './education/page';
 import Projects from './projects/page';
 import Skills from './skills/page';
+import useDeviceSize from '@/hooks/window';
 
 
 
 export default function Home() {
 
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, height] = useDeviceSize();
 
   useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWidth(window.innerWidth);
-    })
-  }, [window.innerWidth])
+    // es
+  }, [width])
 
   return (
     <>

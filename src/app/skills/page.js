@@ -13,7 +13,6 @@ function Skills() {
         <button disabled className={styles.skill}>HTML</button>
         <button disabled className={styles.skill}>CSS</button>
         <button disabled className={styles.skill}>Bootstrap</button>
-        <button disabled className={styles.skill}>Tailwind CSS</button>
         <button disabled className={styles.skill}>Figma Basics</button>
         <button disabled className={styles.skill}>JavaScript</button>
         <button disabled className={styles.skill}>React JS</button>
@@ -21,7 +20,6 @@ function Skills() {
         <button disabled className={styles.skill}>Node JS</button>
         <button disabled className={styles.skill}>Express JS</button>
         <button disabled className={styles.skill}>MongoDB</button>
-        <button disabled className={styles.skill}>SQL</button>
         </div>
       </div>
       <div>

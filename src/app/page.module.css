@@ -33,15 +33,13 @@
 .btnDiv{
   padding-top: 1em;
   position: relative;
-  z-index: -1;
 }
 
 .btn{
   background-color: #CF6679;
   color: #121212;
   font-size: 18px;
-  opacity: 0.6; /* disabled */
-  cursor: not-allowed; /* todo */
+  cursor: pointer;
   border: none;
   text-align: center;
   display: flex;

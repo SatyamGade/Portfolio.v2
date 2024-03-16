@@ -14,7 +14,7 @@ function Projects() {
         <div className={styles.project}>
           <div className={styles.imgDiv}><Image src={task} alt='iNotebook' className={styles.img} /></div>
           <h3 className={styles.heading}>iNotebook</h3>
-          <p className={styles.description}>In iNotebook, you can add, edit, delete and update your notes. This is MERN stack project.</p>
+          <p className={styles.description}>In iNotebook, you can create, read, update and delete your notes. This is MERN stack project.</p>
           <div className={styles.linkDiv}>
             <Link href='https://github.com/SatyamGade/iNotebook-frontend' target='_blank' className={styles.link}>Source Code</Link>
             <Link href='https://i-notebook-frontend-six.vercel.app/' target='_blank' className={styles.link}>Visit Website</Link>

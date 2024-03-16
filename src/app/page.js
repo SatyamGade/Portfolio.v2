@@ -27,12 +27,9 @@ export default function Home() {
           <h1 className={styles.heading}>Hi, I am <span className={styles.specialText}>Satyam Gade</span> and I am passionate about <span className={styles.specialText}>Coding.</span></h1>
           <p className={styles.homeText}>Proficient in various programming languages and eager to apply my technical knowledge to contribute effectively to dynamic IT projects.</p>
           <div className={styles.btnDiv}>
-            <a href="/resume.pdf" download style={{textDecoration: "none"}}>
             <button className={styles.btn}>
-              <Image src={download} className={styles.downloadPng} alt='download' />
-              <p>Download Resume</p>
+              <p><a href="/resume.pdf" download style={{ textDecoration: "none", display: "flex" }}><Image src={download} className={styles.downloadPng} alt='download' /><p style={{ color: "black" }}>Download Resume</p></a></p>
             </button>
-            </a>
           </div>
         </div>
         <div>

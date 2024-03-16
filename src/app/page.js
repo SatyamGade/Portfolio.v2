@@ -28,7 +28,7 @@ export default function Home() {
           <p className={styles.homeText}>Proficient in various programming languages and eager to apply my technical knowledge to contribute effectively to dynamic IT projects.</p>
           <div className={styles.btnDiv}>
             <button className={styles.btn}>
-              <p><a href="/resume.pdf" download style={{ textDecoration: "none", display: "flex" }}><Image src={download} className={styles.downloadPng} alt='download' /><p style={{ color: "black" }}>Download Resume</p></a></p>
+              <p><a href="/Resume_SatyamGade_9422631407.pdf" download style={{ textDecoration: "none", display: "flex" }}><Image src={download} className={styles.downloadPng} alt='download' /><p style={{ color: "black" }}>Download Resume</p></a></p>
             </button>
           </div>
         </div>
